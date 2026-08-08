@@ -34,7 +34,7 @@ uv for dependency management (recommended), or pip with a virtual environment
 Core dependencies (see pyproject.toml): mediapipe, opencv-python, numpy, pyyaml, plus pandas, plotly, and streamlit for the dashboard.
 
 Setup
-git clone https://github.com/ishaaanvaidya/driver-drowsiness-detector.git
+git clone https://github.com/raghavnagar7/driver-drowsiness-detector.git
 cd driver-drowsiness-detector
 uv sync
 If not using uv:

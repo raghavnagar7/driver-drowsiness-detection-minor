@@ -1,0 +1,90 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+*.pyd
+
+# ── Build / packaging ─────────────────────────────────────────────────────────
+build/
+dist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+__pypackages__/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv
+venv/
+env/
+ENV/
+
+# ── uv / pdm / pixi / pipenv ──────────────────────────────────────────────────
+# uv.lock is intentionally committed for reproducibility — do NOT ignore it.
+.pdm-python
+.pdm-build/
+.pixi/
+.abstra/
+
+# ── Test / coverage ───────────────────────────────────────────────────────────
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+
+# ── Type checkers / linters ───────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+cython_debug/
+
+# ── IDE / editor ──────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
+.cursorignore
+.cursorindexingignore
+
+# ── Jupyter / IPython ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+streamlit.out.log
+streamlit.err.log
+.streamlit/secrets.toml
+
+# ── Project-specific ──────────────────────────────────────────────────────────
+# Stale root-level duplicate — real config lives in config/config.yaml
+config.yaml
+
+# Session logs contain personal biometric data — do not commit.
+data/sessions/*.csv
+
+# Trained model weights (added later for hybrid CNN approach).
+*.onnx
+*.tflite
+*.pt
+*.pth
+
+# Misc
+*.log
+*.pypirc
+.env
+.envrc

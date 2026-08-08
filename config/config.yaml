@@ -1,0 +1,45 @@
+camera:
+  source: 0
+  width: 960
+  height: 540
+  fps: 30
+
+detection:
+  min_detection_confidence: 0.5
+  min_tracking_confidence: 0.5
+  pose_update_interval: 2
+
+drowsiness:
+  fallback_ear_threshold: 0.21
+  calibration_ratio: 0.80
+  closed_eye_ratio: 0.90
+  ear_consecutive_frames: 15
+  mar_threshold: 0.6
+  mar_consecutive_frames: 15
+  perclos_threshold: 0.20
+  perclos_window_seconds: 5
+  microsleep_seconds: 1.25
+  microsleep_high_seconds: 1.5
+  microsleep_critical_seconds: 2.5
+  score_low: 25
+  score_medium: 45
+  score_high: 70
+  score_critical: 90
+  pitch_threshold: 18.0
+  yaw_threshold: 30.0
+  roll_threshold: 25.0
+  pose_score_max: 30
+  pose_medium_score: 12
+  pose_high_score: 22
+  eye_unreliable_up_pitch: 25.0
+  eye_unreliable_yaw: 45.0
+
+alerts:
+  cooldown_seconds: 3
+
+display:
+  show_landmarks: true
+  show_metrics: true
+  show_fps: true
+  window_width: 960
+  window_height: 540

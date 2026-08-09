@@ -75,7 +75,6 @@ streamlit.err.log
 config.yaml
 
 # Session logs contain personal biometric data — do not commit.
-data/sessions/*.csv
 
 # Trained model weights (added later for hybrid CNN approach).
 *.onnx
